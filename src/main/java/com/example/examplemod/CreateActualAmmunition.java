@@ -1,5 +1,6 @@
 package com.example.examplemod;
 
+import com.example.examplemod.registry.ModItems;
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 
@@ -43,6 +44,7 @@ public class CreateActualAmmunition {
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public CreateActualAmmunition(IEventBus modEventBus, ModContainer modContainer) {
+        ModItems.REGISTRY.register(modEventBus);
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
