@@ -1,0 +1,13 @@
+{
+  "itemGroup.actual_ammunition": "Example Mod Tab",
+  "block.actual_ammunition.example_block": "Example Block",
+  "item.actual_ammunition.example_item": "Example Item",
+
+  "actual_ammunition.configuration.title": "Create: Actual Ammunition Configs",
+  "actual_ammunition.configuration.section.actual_ammunition.common.toml": "Create: Actual Ammunition Configs",
+  "actual_ammunition.configuration.section.actual_ammunition.common.toml.title": "Create: Actual Ammunition Configs",
+  "actual_ammunition.configuration.items": "Item List",
+  "actual_ammunition.configuration.logDirtBlock": "Log Dirt Block",
+  "actual_ammunition.configuration.magicNumberIntroduction": "Magic Number Text",
+  "actual_ammunition.configuration.magicNumber": "Magic Number"
+}
